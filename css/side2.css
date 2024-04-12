@@ -319,6 +319,7 @@
 .item .buy {
   cursor: pointer;
   position: relative;
+  color: rgb(103, 111, 116);
   padding: 3px;
   border: none;
   margin-top: 10px;
