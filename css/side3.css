@@ -1,0 +1,14 @@
+.nav .side3 {
+  width: 21%;
+  text-align: center;
+}
+.nav .side3 a img {
+  margin-right: 50px;
+  width: 230px;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    transform: scale(1.03);
+    opacity: 0.8;
+  }
+}

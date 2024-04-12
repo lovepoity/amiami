@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/orange.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css">
+    <title>AmiAmi</title>
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <!-- header -->
+      <header>
+        <!-- left -->
+        <div class="header-top">
+          <a href="./index.html" class="left"
+            ><img src="./img/header/logo.png"
+          /></a>
+          <!-- middle -->
+          <div class="middle">
+            <input class="search" type="search" placeholder="Search..." />
+            <i class="bx bx-search"></i>
+          </div>
+          <!-- right -->
+          <div class="right">
+            <a href="#"
+              ><img src="./img/header/global.png" /><span>Language</span></a
+            >
+            <a href="./login.html"
+              ><img src="./img/header/account.png" /><span>Login</span></a
+            >
+            <button id="shop"
+              ><img src="./img/header/cart.png" /><span>Cart</span></button
+            >
+          </div>
+          <!-- cart -->
+          <div class="cart" id="cartSection">
+            <h2>Shopping Cart</h2>
+            <div class="quantity">
+              Total Quantity
+              <p>0</p>
+            </div>
+            <div class="total">
+              Merchandise Total
+              <p>0<sub> JPY</sub></p>
+            </div>
+            <button class="check"><i class='bx bx-cart-alt'></i>Proceed to Checkout</button>
+            <p class="no-item-message">No Item in Cart</p>
+            <!-- product -->
+          </div>
+        </div>
+        <!-- header -->
+        <div class="header-bottom">
+          <div class="botmenu">
+            <ul>
+              <li><a href="#">Category List</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="blur-background1"></div>
+      <div class="blur-background2"></div>
+      </header>
+
+      <!-- login  -->
+      <div class="login">
+        <h2>Login</h2>
+        <div class="mail-1">E-mail address</div>
+        <input autofocus class="mail-2" type="email" id="emailInput" />
+        <div class="email-error error-message"></div>
+        <div class="pass-1">Password</div>
+        <input class="pass-2" type="password" id="passwordInput" />
+        <div class="password-error error-message"></div>
+        <button class="log" onclick="validateLogin()">Login</button>
+        <a href="#">Forgot your Password?</a>
+        <span>New to AmiAmi?</span>
+        <button class="new">Create an AmiAmi account</button>
+      </div>
+
+      <footer>
+        <div class="footer-row1">
+          <div class="footer-row1-left">
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Shop Information</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Point Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-row1-mid">
+            Our Location
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27962869.75856882!2d116.93903172402092!3d31.180915299375496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e10d7c24f9f9%3A0x4ee9a4413caf4030!2z5omL6Iq45bGL44GC44G_44GC44G_5Y2D5p6X5bqX!5e0!3m2!1svi!2s!4v1712161054425!5m2!1svi!2s"
+              width="180"
+              height="120"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+        <div class="footer-row2">
+          <a href="./index.html"><img src="./img/header/logo.png" /></a>
+          <span>© Oh-ami Inc. All rights reserved.</span>
+        </div>
+      </footer>
+      <!-- container -->
+    </div>
+    <!-- Script -->
+    <script src="./js/login.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

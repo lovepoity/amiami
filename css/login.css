@@ -1,0 +1,85 @@
+.login {
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login h2 {
+  margin-top: 120px;
+  color: #808080;
+  font-size: 27px;
+  padding-bottom: 20px;
+  border-bottom: #e0e0df 1px solid;
+}
+.login .mail-1 {
+  margin-top: 30px;
+  color: #808080;
+  font-weight: 700;
+}
+.login .pass-1 {
+  margin-top: 20px;
+  color: #808080;
+  font-weight: 700;
+}
+.pass-2,
+.mail-2 {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #e0e0df;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  outline: none;
+  padding: 0 40px 0 3%;
+  caret-color: #cdc9c6;
+}
+.error-message {
+  color: red;
+  font-size: 13px;
+}
+.error-message {
+  color: red;
+  font-size: 13px;
+}
+.log {
+  margin: 40px auto 20px auto;
+  width: 38%;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background: #f38029;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+.login a {
+  margin: 10px auto 30px auto;
+  font-size: 13px;
+  font-weight: 501;
+  color: rgb(75, 75, 242);
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.login span {
+  padding-top: 30px;
+  text-align: center;
+  border-top: #e0e0df 1px solid;
+}
+.login .new {
+  margin: 50px auto;
+  width: 38%;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #808080;
+  border: 1px solid #e0e0df;
+  background: #f7f7f7;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+}
