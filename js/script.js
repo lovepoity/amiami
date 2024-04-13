@@ -200,6 +200,7 @@ function toggleText() {
 chevron.addEventListener("click", toggleText);
 upChevron.addEventListener("click", toggleText); // Bổ sung sự kiện cho biểu tượng chevron ngược lại
 
+//text
 const texts = [
   "Unleash your imagination with Figure's enchanting Nendoroid collection - Miniature wonders await!",
   "Captivate your world with Figure's Nendoroid figures - Tiny treasures, endless adventures!",
@@ -220,5 +221,3 @@ function initText() {
   changeText();
   setInterval(changeText, 9000);
 }
-
-initText();

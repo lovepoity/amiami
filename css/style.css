@@ -14,7 +14,11 @@
 
   scrollbar-color: rgb(167, 166, 166) transparent;
   scrollbar-width: thin;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
+
 a {
   color: #808080;
   &:visited {
@@ -90,7 +94,7 @@ header {
   font-size: 11px;
   font-weight: 501;
   margin-top: 5px;
-  color: rgb(103, 111, 116);
+  color: rgb(167, 166, 166);
   transition: all 0.5s ease-in-out;
 
   &:hover {
